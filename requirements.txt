@@ -1,1 +1,8 @@
-reqs = '''gradiomistralaipandas'''with open("requirements.txt", "w") as f:    f.write(reqs)
+reqs = '''
+gradio
+mistralai==0.4.2 
+pandas
+'''
+
+with open("requirements.txt", "w") as f:
+    f.write(reqs)
