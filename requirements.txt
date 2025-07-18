@@ -1,8 +1,5 @@
-reqs = '''
-gradio
+gradio==4.24.0
 mistralai==0.4.2 
 pandas
-'''
 
-with open("requirements.txt", "w") as f:
-    f.write(reqs)
+
